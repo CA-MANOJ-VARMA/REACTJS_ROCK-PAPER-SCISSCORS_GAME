@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.css-bg-container {
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.css-score-div {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  border-radius: 10px;
+  min-width: 700px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Bree Serif;
+  font-size: 10px;
+}
+
+.css-score-display-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: #223a5f;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  width: 100px;
+  font-family: Roboto;
+}
+
+.css-unordered-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.css-list {
+  list-style-type: none;
+}
+
+.css-list-image {
+  width: 130px;
+}
+
+.css-button-list {
+  background-color: transparent;
+  border-width: 0;
+  margin: 10px;
+}
+
+.css-button-list:hover {
+  cursor: pointer;
+}
+
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #223a5f;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.trigger-button:hover {
+  cursor: pointer;
+}
+
+.popup-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.css-rules-image {
+  width: 500px;
+}
+
+.css-popup-image-button {
+  background-color: white;
+  padding: 20px;
+}
+
+.css-trigger-button-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.css-rules-button-div {
+  display: flex;
+  justify-content: flex-end;
+  border-color: white;
+}
+
+.close-button {
+  border-style: solid;
+  border-color: black;
+}
+
+.close-button:hover {
+  background-color: rgb(156, 20, 20);
+  color: white;
+}
+
+.css-you-image {
+  width: 120px;
+}
+
+.css-opponent-image {
+  width: 120px;
+}
+
+.css-you-opponent-div {
+  display: flex;
+}
+
+.css-you-score-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.css-opponent-score-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.css-result-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-button-playagain-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.css-playagain-button {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  border-style: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.css-playagain-button:hover {
+  cursor: pointer;
+}
+
+.css-result-list-div {
+  height: 500px;
+}
